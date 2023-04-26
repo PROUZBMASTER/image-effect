@@ -52,3 +52,13 @@ body {
 .display .img:hover {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
+
+
+@media (max-width: 575px) {
+    .display {
+        position: relative;
+        width: 300px;
+        height: 100px;
+        background: black;
+    }
+    }
